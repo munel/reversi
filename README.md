@@ -1,16 +1,15 @@
-# reversi
+# Reversi Board Game
 
-A new Flutter project.
+Flutter Project
 
-## Getting Started
+This is the reversi board game with getx state management.
 
-This project is a starting point for a Flutter application.
+It has also a basic AI.
 
-A few resources to get you started if this is your first Flutter project:
+This project prepare for Brain Games Enki on Google Play and App Store.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<a href="https://play.google.com/store/apps/details?id=bt.unel.zeka_oyunlari">Goople Play</a></br>
+<a href="https://apps.apple.com/tr/app/zeka-oyunları-enki/id1559189276?l=tr">App Store</a>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
