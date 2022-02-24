@@ -20,7 +20,54 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.green,
           textTheme:
               const TextTheme(bodyText2: TextStyle(color: Colors.white))),
-      home: const ReversiMain(),
+      home: const HomePage(),
     );
+  }
+}
+
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+        child: Scaffold(
+      appBar: AppBar(
+        title: const Text("Brain Games Enki "),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Column(
+              children: [
+                SizedBox(
+                  width: 120,
+                  child: ElevatedButton(
+                    onPressed: () => Get.to(const ReversiMain()),
+                    child: const Text("Reversi"),
+                  ),
+                ),
+                SizedBox(
+                  width: 120,
+                  child: ElevatedButton(
+                    onPressed: () => Get.to(const ReversiAIMain()),
+                    child: const Text("Reversi - AI"),
+                  ),
+                ),
+              ],
+            ),
+            const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text(
+                "This project prepare for Brain Games Enki on Google Play and App Store",
+                style: TextStyle(color: Colors.black),
+                textAlign: TextAlign.center,
+              ),
+            )
+          ],
+        ),
+      ),
+    ));
   }
 }
