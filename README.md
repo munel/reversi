@@ -4,7 +4,7 @@ Flutter Project
 
 This is the reversi board game with getx state management.
 
-It has also a basic AI.
+The app also has a simple AI.
 
 This project prepare for Brain Games Enki on Google Play and App Store.
 
