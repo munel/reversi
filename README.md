@@ -12,4 +12,7 @@ This project prepare for Brain Games Enki on Google Play and App Store.
 <a href="https://apps.apple.com/tr/app/zeka-oyunları-enki/id1559189276?l=tr">App Store</a>
 
 
+<img src="https://github.com/munel/reversi/blob/master/asset/reversipng.png?raw=true">
+
+
 
